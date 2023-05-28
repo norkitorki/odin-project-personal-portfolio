@@ -97,3 +97,31 @@ main > h2 { padding-bottom: 2rem; }
 
 .project-description { padding: 1rem 1rem 2rem 1rem; }
 
+footer {
+  color: #ffffff;
+  font-size: 140%;
+  background-color: var(--accent-background-color);
+  padding: 4rem 6rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.contact-details > h2 { color: var(--main-background-color); }
+
+.footer-image > img { max-width: 100%; }
+
+.about-me > .links,
+.contact-details > .phone, 
+.contact-details > .email, 
+.contact-details > .links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
