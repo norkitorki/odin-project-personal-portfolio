@@ -10,3 +10,53 @@ body {
   color: #555555;
   font-size: 20px;
 }
+
+header {
+  position: relative;
+  overflow: hidden;
+  padding: 3rem 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-background {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  height: 100%;
+  width: 200%;
+  transform: translate(-200px, -400px) rotate(-10deg);
+  background-color: var(--accent-background-color);
+}
+
+.wide-heading {
+  color: var(--main-background-color);
+  margin: 0 0 1rem 1rem;
+}
+
+.narrow-heading { display: none; }
+
+.about-me-wrapper { max-width: 1800px; }
+
+.about-me {
+  position: relative;
+  background-color: var(--main-background-color);
+  padding: 3rem;
+  box-shadow: 1px 2px 2px var(--box-shadow-color);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-me > p {
+  line-height: 150%;
+  font-size: 2rem;
+}
+
+.about-me > .links { align-self: flex-end; }
+
+h1 { font-size: 5rem; }
+
+h2 { font-size: 2.5rem; }
+
