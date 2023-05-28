@@ -1,3 +1,9 @@
+* {
+  --main-background-color: #ffffff;
+  --accent-background-color: #0b0116;
+  --box-shadow-color: #e6e6e6;
+}
+
 body {
   min-width: 510px;
   background-color: var(--main-background-color);
