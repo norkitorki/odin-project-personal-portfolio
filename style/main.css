@@ -162,5 +162,7 @@ footer {
 @media (max-width: 640px) {
   h1 { font-size: 3rem; }
 
+  .about-me > p { font-size: 1.5rem; }
+
   header, main, footer { padding: 1rem; }
 }
