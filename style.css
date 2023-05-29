@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('fonts/Roboto-Regular.ttf');
+  font-style: normal;
+}
+
 * {
   --main-background-color: #ffffff;
   --accent-background-color: #0b0116;
@@ -8,6 +14,7 @@ body {
   min-width: 350px;
   background-color: var(--main-background-color);
   color: #555555;
+  font-family: 'Roboto-Regular', 'Times New Roman', Times, serif;
   font-size: 20px;
 }
 
