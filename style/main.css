@@ -110,13 +110,18 @@ main > h2 { padding-bottom: 2rem; }
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  transform: scale(0);
+  transition: transform 0.5s ease;
 }
 
 .project-image-container:hover > img,
 .project-image-links:focus-within + img { opacity: 0.1; }
 
 .project-image-container:hover > .project-image-links,
-.project-image-links:focus-within { opacity: 1; }
+.project-image-links:focus-within {
+  opacity: 1;
+  transform: scale(1);
+}
 
 .project-details {
   font-size: 1.1rem;
