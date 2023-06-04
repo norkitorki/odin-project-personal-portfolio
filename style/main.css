@@ -113,10 +113,10 @@ main > h2 { padding-bottom: 2rem; }
 }
 
 .project-image-container:hover > img,
-.project-image-container:has(a:focus) > img { opacity: 0.1; }
+.project-image-links:focus-within + img { opacity: 0.1; }
 
 .project-image-container:hover > .project-image-links,
-.project-image-links:has(a:focus) { opacity: 1; }
+.project-image-links:focus-within { opacity: 1; }
 
 .project-details {
   font-size: 1.1rem;
